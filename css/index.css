@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    font-family:"Firenze";
+    font-size:15px;
+    background:url(../images/hh.jpg);
+    cursor: pointer;
+}
+#sence{
+    width:1470px;
+    height:1020px;
+    margin:30px auto;
+    position:relative;
+}
+#change{
+    width:100px;
+    height:50px;
+    position:absolute;
+    bottom:150px;
+    left:660px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    font-family: "方正字迹-吕建德字体";
+    font-size:2em;
+    cursor: pointer;
+}
+#re-change{
+    width:100px;
+    height:50px;
+    position:absolute;
+    bottom:60px;
+    left:660px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    font-family: "方正字迹-吕建德字体";
+    font-size:2em;
+    cursor: pointer;
+}
+#change:hover{
+	background-color: rgba(255,22,22,0.5);
+	color:white;
+}
+#re-change:hover{
+	background-color: rgba(255,22,22,0.5);
+	color:white;
+}
+#change-place{
+    width:190px;
+    height:254px;
+    position:absolute;
+    right:200px;
+    bottom:10px;
+    opacity:0.8;
+    background: #F9D10E;
+    background-image:url(../images/beimian.png);
+}
+#left-place{
+    width:150px;
+    height:254px;
+    position:absolute;
+    left:210px;
+    bottom:10px;
+}
+.puke{
+    position:absolute;
+    width:182px;
+    height:241px;
+    margin:3px;
+    text-align:left;
+    font-size:28px;
+    padding-left:8px;
+    padding-top:6px;
+
+}
+.clear{
+    clear:both;
+}
+#end{
+	width: 500px;
+	height: 500px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:100px;
+	left: 580px;
+	z-index: 99999;
+	background-image: url(../images/ffff.png);
+	border-radius: 20px;
+	display: none;
+}
